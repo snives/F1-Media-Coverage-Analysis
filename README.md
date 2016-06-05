@@ -1,15 +1,17 @@
 # F1-Media-Coverage-Analysis
-Formula 1 Media Coverage Analysis
+Formula 1 Media Coverage Analysis for Data Visualization course
 
 ## Summary
 
 I chose to explore the exciting world of Formula 1 by examining the relationship between the media's coverage of each driver over the 2015 and 2016 season.  The dataset I collected is comprised of 30,418 unique articles published on the web gathered from 218 news sources over a 2+ year period via a web scraping bot and filtered by articles with a published date from Jan 1, 2015 through Jun 4, 2016.  Both visualizations were created with Plot.ly.
 
-### F1 Driver Mentions in Media Heatmap - https://raw.githubusercontent.com/snives/F1-Media-Coverage-Analysis/master/Formula%201%20Drivers%20Mentions%20in%20Media%20in%202015-2016.png 
+### F1 Driver Mentions in Media Heatmap
+![F1 Driver Mentions in Media Heatmap](https://raw.githubusercontent.com/snives/F1-Media-Coverage-Analysis/master/Formula%201%20Drivers%20Mentions%20in%20Media%20in%202015-2016.png "F1 Driver Mentions in Media Heatmap")
 
 The X-axis is the ordinal variable Article Publish Date, the Y-axis is the nominal variable Driver Name, the Z-axis, is a quantitative variable Article Count which contain that drivers name, published during that week.  I chose a heatmap visualization because other 3-dimensional graphs contained too much "chart junk" and high values tended to obscure data "behind" that point by visual occlusion.  Though the heatmap uses Hue to quantitatively describe Article Count, it adds tremendous clarity.  This dataset is both noisy and peaky, and the choice of colors in the color bar legend does a very effective job at calling attention to interesting parts of the dataset, which I cover below.  The colormap serves as a legend to convey what the hues represent.  I augmented the chart with textual notes to help tell a story about the data.
 
-### F1 Media Coverage by Week Barchart - https://raw.githubusercontent.com/snives/F1-Media-Coverage-Analysis/master/Formula%201%20Media%20Coverage%20by%20Week%202015-2016.png 
+### F1 Media Coverage by Week Barchart
+![F1 Media Coverage by Week Barchart](https://raw.githubusercontent.com/snives/F1-Media-Coverage-Analysis/master/Formula%201%20Media%20Coverage%20by%20Week%202015-2016.png "F1 Media Coverage by Week Barchart")
 
 The X-axis is the ordinal variable Article Publish Date, and the Y-axis is the quantitative variable Articles Published in the media during that week.  In this graph I depict the Y-Axis by position, so as to most accurately convey the quantity of articles published.  Since it is not continuous data I did not use a line chart.  I augmented the chart with textual notes to help tell a story about the data.
 
